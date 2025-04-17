@@ -69,7 +69,18 @@ const adjustBiplaneForScreenSize = () => {
         camera={{ near: 0.1, far: 1000 }}
       >
         <Suspense fallback={<Loader />}>
-          <directionalLight  position={[1, 1, 1]} intensity={1}/>
+        <directionalLight
+  castShadow
+  position={[5, 10, 5]}
+  intensity={1.5}
+  shadow-mapSize-width={1024}
+  shadow-mapSize-height={1024}
+  shadow-camera-far={50}
+  shadow-camera-left={-10}
+  shadow-camera-right={10}
+  shadow-camera-top={10}
+  shadow-camera-bottom={-10}
+/>
           <ambientLight  intensity={0.5}/>
           <pointLight  position={[10, 5, 10]} intensity={2} />
           <spotLight  position={[0, 50, 10]}
