@@ -114,7 +114,7 @@ export const skills = [
     
     {
         imageUrl: motion,
-        name: "Motion",
+        name: "Frame Motion",
         type: "Animation",
     },
     {

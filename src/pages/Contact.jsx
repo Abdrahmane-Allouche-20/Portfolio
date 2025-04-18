@@ -151,9 +151,9 @@ const Contact = () => {
         far: 1000,
       }}
     >
-      <directionalLight position={[0, 0, 1]} intensity={2.5} />
-      <ambientLight intensity={1} />
-      <pointLight position={[5, 10, 0]} intensity={2} />
+      <directionalLight position={[0, 0, 1]} intensity={0} />
+      <ambientLight intensity={0.5} />
+      <pointLight position={[5, 10, 0]} intensity={0} />
       <spotLight
         position={[10, 10, 10]}
         angle={0.15}

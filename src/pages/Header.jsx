@@ -1,16 +1,27 @@
-import React, { useState } from 'react'
+import React, { useState ,useRef} from 'react'
 import { NavLink } from 'react-router-dom'
 import { house, Menu, X } from '../assets/icons'
 import { motion, AnimatePresence } from 'framer-motion'
 import { IdCard,Laptop,Mail  } from 'lucide-react';
+import { Download } from 'lucide-react';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
-
+const cv=useRef()
+const handleDownloadCv = () => {
+  const link = document.createElement("a");
+  link.href = "/cv.pdf"; 
+  link.download = "my-cv.pdf"; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
   const navLinks = (
     <>
       <NavLink
+        onClick={()=>setIsOpen(false)}
         to="/About"
+    
         className={({ isActive }) =>
           `${isActive ? "text-blue-600  translate-x-3 md:translate-x-0 md:-translate-y-2" : "text-black  md:hover:-translate-x-0 hover:translate-x-3 md:hover:-translate-y-1"} 
         transform duration-300  flex items-center gap-3 `
@@ -19,7 +30,10 @@ function Header() {
         <IdCard />
         About
       </NavLink>
-      <NavLink to='/Contact' className={({ isActive }) =>
+      <NavLink 
+      onClick={()=>setIsOpen(false)}
+      to='/Contact' 
+      className={({ isActive }) =>
           `${isActive ? "text-blue-600  translate-x-3 md:translate-x-0 md:-translate-y-2" : "text-black  md:hover:-translate-x-0 hover:translate-x-3 md:hover:-translate-y-1"}
       transform duration-300  flex items-center gap-3`
         }>
@@ -27,7 +41,10 @@ function Header() {
          />
         Contact
       </NavLink>
-      <NavLink to='/Projects' className={({ isActive }) =>
+      <NavLink
+       to='/Projects'
+      onClick={()=>setIsOpen(false)}
+      className={({ isActive }) =>
           `${isActive ? "text-blue-600  translate-x-3 md:translate-x-0 md:-translate-y-2" : "text-black  md:hover:-translate-x-0 hover:translate-x-3 md:hover:-translate-y-1"}
       transform duration-300  flex items-center gap-3`
         }>
@@ -36,9 +53,16 @@ function Header() {
             />
         Projects
       </NavLink>
+      <button 
+      ref={cv}
+      onClick={handleDownloadCv}
+      className='p-2 text-sm flex cursor-pointer items-center bg-gradient-to-br w-fit rounded-xl from-blue-500 to-sky-400 text-white  gap-3'>
+       <Download className='  w-4'/>      Download
+      </button>
     </>
   )
 
+  
   return (
     <header className='absolute top-0 left-0 right-0 z-50 bg-transparent max-w-5xl mx-auto px-4 sm:px-16 py-4'>
       <div className='flex justify-between items-center'>
@@ -68,6 +92,7 @@ function Header() {
       <AnimatePresence>
         {isOpen && (
           <motion.nav
+          
             className='md:hidden mt-4 flex flex-col gap-4 text-lg font-medium glass p-4 rounded-lg shadow-lg'
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
