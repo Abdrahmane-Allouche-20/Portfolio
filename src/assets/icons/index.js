@@ -46,7 +46,9 @@ import foodrecipe from "./foodrecipe.svg"
 import weather from './weather.svg'
 import eshop from './eshop.svg'
 import coffee from './coffee.svg'
+import moon from './moon.svg'
 export {
+    moon,
     coffee,
     game,
     eshop,

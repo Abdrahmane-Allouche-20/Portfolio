@@ -1,5 +1,6 @@
 
 import {
+    moon,
     game ,
     eshop,
     todo,
@@ -257,12 +258,12 @@ export const projects = [
   
     },
     {
-        iconUrl: game,
+        iconUrl: moon,
         theme: 'btn-back-yellow',
-        name: 'Hangman Game',
-        description: 'A fun and interactive Hangman game built with JavaScript. Players guess letters to reveal a hidden word, with visual feedback and a limited number of attempts. A great project to showcase logic, DOM manipulation, and user interaction',
-        link: 'https://github.com/Abdrahmane-Allouche-20/HangmaneGame',
-        Website:'https://hangmanegamee.onrender.com'
+        name: 'Hajj Lottery',
+        description: 'The HajjLottery  is your gateway to a seamless Hajj registration experience. Users can easily register for the lottery and track their status, while admins have full control to manage and filter entries. With intuitive navigation and a user friendly interface.',
+        link: 'https://github.com/Abdrahmane-Allouche-20/HajjLotteryFrontEnd',
+        Website:'https://hajjlottery.netlify.app'
     }
 ];
 
