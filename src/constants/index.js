@@ -220,7 +220,7 @@ export const projects = [
         name: 'Todo List',
         description: 'A task management app with user authentication and full CRUD functionality. Built with React, Node.js, Express, and MongoDB. It showcases my ability to develop responsive UIs, build RESTful APIs, and manage data efficiently.',
         link: 'https://github.com/Abdrahmane-Allouche-20/TodolistFullStack',
-        Website:'https://todolistfullst.netlify.app',
+        Website:'https://taskdoneee.netlify.app/todo',
     },
     {
         iconUrl: weather,
