@@ -1,4 +1,3 @@
-
 import {
     moon,
     game ,
@@ -249,13 +248,12 @@ export const projects = [
         
     },
     {
-        iconUrl: coffee,
+        iconUrl: game,
         theme: 'btn-back-black',
-        name: 'Coffee Shop',
-        description: 'Where every cup tells a story. Step into a cozy corner of comfort and creativity. From rich espresso to creamy iced lattes and seasonal specials, each drink is crafted with passion and premium beans—bringing you more than just coffee, but a moment of joy',
-        link: 'https://github.com/Abdrahmane-Allouche-20/CoffeShop',
-        Website:'https://seasonscoffee.netlify.app/',
-  
+        name: 'Hangman Game',
+        description: 'A modern Hangman game where players guess letters to reveal hidden words. Features interactive UI, smooth gameplay, and real-time feedback for an engaging experience. Challenge yourself and improve your vocabulary with every round!',
+        link: 'https://github.com/Abdrahmane-Allouche-20/HangmaneGame',
+        Website:'https://hangmaneegame.onrender.com/',
     },
     {
         iconUrl: moon,
