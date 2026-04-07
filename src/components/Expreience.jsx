@@ -1,40 +1,57 @@
 import React from 'react'
-import { experiences } from '../constants'
 
-function Expreience() {
+function Expreience({ experience }) {
     return (
-        <>
-            {experiences.map((experience, index) => {
-                return (
+        experience ? (
+            <article
+                        className='group relative overflow-hidden rounded-3xl p-[1px] shadow-[0_12px_35px_rgba(15,23,42,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_18px_40px_rgba(15,23,42,0.16)]'
+                        style={{
+                            background: `linear-gradient(135deg, ${experience.iconBg} 0%, ${experience.border} 100%)`
+                        }}
+                    >
+                        <div className='relative flex h-full flex-col rounded-[calc(1.5rem-1px)] border border-white/70 bg-white/80 p-6 backdrop-blur-sm transition-colors duration-300 group-hover:bg-white/90'>
+                            <div
+                                className='pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full opacity-30 blur-2xl transition-opacity duration-300 group-hover:opacity-50'
+                                style={{ backgroundColor: experience.border }}
+                            />
 
-                    <div className='p-6 rounded-xl hover:scale-105 ease-in-out transform duration-300 ' style={{ backgroundColor: experience.iconBg ,boxShadow:`10px 10px 0px ${experience.border} `}} key={index}>
-                        <div className='flex items-start justify-between gap-3'>
-                            <div className='block-container w-12 h-12  '>
-                                <div className={`btn-back rounded-xl ${experience.title}`} />
-                                <div className='btn-front rounded-xl flex justify-center items-center'>
+                            <div className='relative z-10 flex items-start gap-4'>
+                                <div
+                                    className='flex h-14 w-14 items-center justify-center rounded-2xl border border-white/70 bg-white/85 shadow-[0_10px_20px_rgba(15,23,42,0.12)]'
+                                    style={{ boxShadow: `0 10px 24px ${experience.border}55` }}
+                                >
                                     <img
                                         src={experience.icon}
-                                        alt='threads'
-                                        className='w-1/2 h-1/2 object-contain'
+                                        alt={experience.alt}
+                                        className='h-8 w-8 object-contain'
                                     />
                                 </div>
-                            </div>
-                            <div className=' flex flex-col'>
-                                <h4 className='text-base sm:text-xl text-end font-bold'>
-                                    {experience.title}
-                                </h4>
-                                <span className='text-xs text-black/60 mt-1 text-end'>{experience.date}</span>
 
+                                <div className='flex-1'>
+                                    <div className='mb-2 flex items-center justify-between gap-3'>
+                                        <h4 className='text-base font-bold text-slate-800 sm:text-lg'>
+                                            {experience.title}
+                                        </h4>
+                                        <span
+                                            className='rounded-full border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-600'
+                                            style={{ borderColor: experience.border, backgroundColor: `${experience.border}18` }}
+                                        >
+                                            {experience.badge || 'Certificate'}
+                                        </span>
+                                    </div>
 
+                                    <p className='text-xs font-medium uppercase tracking-[0.08em] text-slate-500'>
+                                        {experience.date}
+                                    </p>
+                                </div>
                             </div>
+
+                            <p className='relative z-10 mt-5 text-sm leading-relaxed text-slate-700'>
+                                {experience.description}
+                            </p>
                         </div>
-
-                        <p className='mt-5 text-sm text-justify'>{experience.description}</p>
-
-                    </div>
-                );
-            })}
-        </>
+                    </article>
+                ) : null
     )
 }
 

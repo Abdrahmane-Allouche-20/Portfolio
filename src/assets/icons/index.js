@@ -8,6 +8,9 @@ import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
 import motion from './motion.svg'
 import mui from './mui.svg'
+import lotus from './lotus.svg'
+import identifiant from './identifiant.svg'
+import terminal from './terminal.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
@@ -47,7 +50,40 @@ import weather from './weather.svg'
 import eshop from './eshop.svg'
 import coffee from './coffee.svg'
 import moon from './moon.svg'
+import chat from './chat.svg'
+import portfolio from './portfolio.svg'
+import bash from './bash.svg'
+import go from './go.svg'
+import tcf from './TCF.png'
+import ielts from './ielts-logo.png'
+import simplelearn from './simplelearn.png'
+import huawei from './huawei.svg'
+import django from './django.svg'
+import docker from './docker.svg'
+import fastapi from './fastapi.svg'
+import owasp from './owasp.svg'
+import vite from './vite.svg'
+import canva from './canva.svg'
+import algerie_telecom from './algerie_telecome.png'
+import socshield from './Socshield.jpg'
 export {
+    socshield,
+    huawei,
+    algerie_telecom,
+    tcf,
+    ielts,
+    simplelearn,
+    bash,
+    go,
+    canva,
+    django,
+    docker,
+    fastapi,
+    owasp,
+    vite,
+    chat,
+    terminal,
+    identifiant,
     moon,
     coffee,
     game,
@@ -64,6 +100,8 @@ export {
     mysql,
     figma,
     gsap,
+    portfolio,
+    lotus,
     c,
     python,
     Menu,

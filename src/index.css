@@ -35,12 +35,38 @@
   overflow: hidden;
 }
 
+.block-container .skill-name {
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #0f172a;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.95), rgba(224, 242, 254, 0.95));
+  box-shadow: 0 8px 18px rgba(2, 6, 23, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: opacity 0.28s ease, transform 0.28s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
 .block-container:hover>.btn-back {
   transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
 }
 
 .block-container:hover>.btn-front {
   transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+}
+
+.block-container:hover .skill-name {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 /* Neo Brutalism */
@@ -98,4 +124,10 @@
 
 .block-container .btn-back-black {
   background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
+}
+.block-container .btn-back-lime {
+  background: linear-gradient(135deg, #FC354C -20%, #0ABFBC 120%);
+}
+.block-container .btn-back-liberty {
+  background: linear-gradient(135deg, #FF4E50 -20%, #F9D423 120%);
 }

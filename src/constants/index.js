@@ -1,19 +1,29 @@
 import {
-    moon,
-    game ,
+    algerie_telecom,
+    tcf,
+    ielts,
+    simplelearn,
+    portfolio,
+    chat,
+    huawei,
+    moon,   
     eshop,
-    todo,
-    foodrecipe,
     weather,
-    coffee,
+    lotus,
     postgresql,
     java,
     php,
     mysql,
-    car,
+    go,
+    django,
+    docker,
+    fastapi,
+    owasp,
+    vite,
+    canva,
+    bash,
     contact,
-    css,
-    estate,
+    css, 
     express,
     git,
     github,
@@ -21,18 +31,16 @@ import {
     javascript,
     linkedin,
     mongodb,
+    terminal,
+    identifiant,
     motion,
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
-    sass,
-    snapgram,
-    summiz,
+    sass,   
     tailwindcss,
-    threads,
     typescript,
     python,
     c,
@@ -41,10 +49,12 @@ import {
     Bootstrap,
     udemy,
     hp,
-    nvidia
+    nvidia,
+    socshield
 } from "../assets/icons";
 
 export const skills = [
+    
     {
         imageUrl: html,
         name: "HTML",
@@ -127,6 +137,11 @@ export const skills = [
         name: "FIGMA",
         type: "Design",  
     },
+     {
+        imageUrl: canva,
+        name: "Canva",
+        type: "Design",
+    },
     {
         imageUrl: php,
         name: "php",
@@ -163,6 +178,16 @@ export const skills = [
         type: "AI",
     },
     {
+        imageUrl: fastapi,
+        name: "FastAPI",
+        type: "Backend",
+    },
+    {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
+    },
+    {
         imageUrl: c,
         name: "C language",
         type: "Programming",
@@ -172,9 +197,67 @@ export const skills = [
         name: "JAVA ",
         type: "Programming",
     },
+    {
+        imageUrl: go,
+        name: "Go",
+        type: "Backend",
+    },
+    {
+        imageUrl: bash,
+        name: "Bash",
+        type: "Programming",
+    },
+    {
+        imageUrl: vite,
+        name: "Vite",
+        type: "Frontend",
+    },
+   
+    
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "DevOps",
+    },
+    {
+        imageUrl: owasp,
+        name: "OWASP",
+        type: "Security",
+    },
+];
+
+export const workExperiences = [
+    {
+        title: "Web Developer & Cyber Security",
+        alt: "SocShield",
+        icon: socshield,
+        badge: "Job",
+        iconBg: "#1FAA8D",
+        border: "#EF476F",
+        date: "2025 - Present",
+        description: 'Web Developer and Cyber Security Professional at SoShield, an Algerian cybersecurity company. Developing secure web applications and implementing comprehensive security solutions to protect digital infrastructure. Combining full-stack development expertise with advanced cybersecurity practices to deliver robust, threat-resistant applications.'
+    },
 ];
 
 export const experiences = [
+    {
+        title: "CCNA 200-301 Network Fundamentals",
+        alt: "Simplilearn SkillUp",
+        icon: simplelearn,
+        iconBg: "#006BF0",
+        border: "#FFF02D",
+        date: "08 June 2025",
+        description: 'Completed the CCNA 200-301 Network Fundamentals online course, strengthening core networking knowledge including routing, switching, and network infrastructure concepts.'
+    },
+    {
+        title: "Hackathon Forsatic by Algerie Telecom",
+        alt: "Algerie Telecom",
+        icon: algerie_telecom,
+        iconBg: "#3A87FE",
+        border: "#099F36",
+        date: "11-13 December 2025",
+        description: 'Recognized for active participation in the Forsatic Hackathon 2025 by Algerie Telecom, contributing with commitment, teamwork, and problem-solving during the event.'
+    },
     {
         title: "Fundamentals of Deep Learning",
         alt: "Nvidia",
@@ -210,34 +293,78 @@ export const experiences = [
         date: "17 December 2024 ",
         description:'Built a strong foundation in programming, mastering concepts like data types, functions, and memory management, while improving problem-solving skills and understanding low-level, optimized coding.'
     },
+    {
+        title: "Huawei HCIA - Datacom",
+        alt: "Huawei",
+        icon: huawei,
+        iconBg: "#FF0000",
+        border: "#B90E0E",
+        date: "2025",
+        description: 'Earned HCIA - Datacom certification, validating practical understanding of network fundamentals, enterprise connectivity, and basic datacom deployment and troubleshooting.'
+    },
+    {
+        title: "IELTS - C1",
+        alt: "IELTS",
+        icon: ielts,
+        iconBg: "#6F328B",
+        border: "#61187C",
+        date: "2025",
+        description: 'Achieved C1-level proficiency in English through IELTS, demonstrating advanced communication skills across listening, reading, writing, and speaking.'
+    },
+    {
+        title: "TCF - C1",
+        alt: "TCF",
+        icon: tcf,
+        iconBg: "#FF0000",
+        border: "#0000FF",
+        date: "2025",
+        description: 'Achieved C1-level proficiency in French through TCF, confirming strong comprehension and expression abilities in academic and professional contexts.'
+    },
 ];
 
 export const projects = [
     {
-        iconUrl: todo,
+        iconUrl: portfolio,
         theme: 'btn-back-red',
-        name: 'Todo List',
-        description: 'A task management app with user authentication and full CRUD functionality. Built with React, Node.js, Express, and MongoDB. It showcases my ability to develop responsive UIs, build RESTful APIs, and manage data efficiently.',
-        link: 'https://github.com/Abdrahmane-Allouche-20/TodolistFullStack',
-        Website:'https://taskdoneee.netlify.app',
+        name: 'Portfolio builder',
+        description: 'A modern, responsive  portfolio builder that lets users create, customize, and preview personal portfolio websites through an easy-to-use interface. Built to deliver a smooth editing experience with reusable UI components and a clean, maintainable codebase.',
+        link: 'https://github.com/Abdrahmane-Allouche-20/portfolio_builder_frontend',
+        Website:'https://devfoliov1.netlify.app/',
+    },
+     {
+        iconUrl: chat,
+        theme: 'btn-back-blue',
+        name: 'Real-Time Chat App',
+          description: 'A modern, responsive real-time chat app that lets users sign in, start conversations, and exchange messages instantly through an easy-to-use interface. Built to deliver a smooth communication experience with reusable UI components and a clean, maintainable codebase.',
+        link: 'https://github.com/Abdrahmane-Allouche-20/real_time_chat_frontend',
+        Website:'https://pulsechattt.netlify.app/',
+
+    },
+    
+    {
+        iconUrl: lotus,
+        theme: 'btn-back-black',
+        name: 'Eupatheia',
+        description: 'EUPATHEIA is a wellness focused website promoting emotional balance, mindful living, and natural beauty. Inspired by the Greek concept of “beautiful emotion,” it offers a serene digital space for inner peace and holistic well-being.',
+        link: 'https://github.com/Abdrahmane-Allouche-20/EUPATHEIA',
+        Website:'https://eupatheia.vercel.app',
     },
     {
+        iconUrl: moon,
+        theme: 'btn-back-yellow',
+        name: 'Hajj Lottery',
+        description: 'The HajjLottery  is your gateway to a seamless Hajj registration experience. Users can easily register for the lottery and track their status, while admins have full control to manage and filter entries. With intuitive navigation and a user friendly interface.',
+        link: 'https://github.com/Abdrahmane-Allouche-20/HajjLotteryFrontEnd',
+        Website:'https://hajjlottery.netlify.app'
+    },{
         iconUrl: weather,
         theme: 'btn-back-green',
         name: 'Weather  App',
-        description: 'A sleek, interactive weather app delivering real-time updates with dynamic visuals and an intuitive UI.  it features location-based forecasts, responsive design, and clean code highlighting my skills in API integration and front-end architecture',
+        description: 'StormFounder is a sleek, responsive weather web app built with React and modern APIs. It delivers a smooth forecast experience with a clean UI, location-based weather updates, dynamic visuals, and efficient data handling that showcases my API integration and front-end architecture skills.',
         link: 'https://github.com/Abdrahmane-Allouche-20/Weather',
         Website:'https://stormfounder.netlify.app',
     },
-    {
-        iconUrl: foodrecipe,
-        theme: 'btn-back-blue',
-        name: 'Food Recipe App',
-        description: 'Food Recipe App is a simple and user-friendly web application that helps you discover, explore, and save delicious recipes. Whether youre a beginner or a pro in the kitchen, this app offers step-by-step instructions, ingredient lists, and cooking tips to make your meal prep easier and more fun',
-        link: 'https://github.com/Abdrahmane-Allouche-20/foodRecipe',
-        Website:'https://foodeverytime.netlify.app',
-
-    },
+    
     {
         iconUrl: eshop,
         theme: 'btn-back-pink',
@@ -248,21 +375,22 @@ export const projects = [
         
     },
     {
-        iconUrl: game,
-        theme: 'btn-back-black',
-        name: 'Hangman Game',
-        description: 'A modern Hangman game where players guess letters to reveal hidden words. Features interactive UI, smooth gameplay, and real-time feedback for an engaging experience. Challenge yourself and improve your vocabulary with every round!',
-        link: 'https://github.com/Abdrahmane-Allouche-20/HangmaneGame',
-        Website:'https://hangmaneegame.onrender.com/',
+        iconUrl: terminal,
+        theme: 'btn-back-liberty',
+        name: 'Full Stack web starter',
+        description: 'fullstack web starter is a small Bash-based scaffolding toolkit that quickly generates a modern JavaScript full-stack project: a React (Vite) frontend plus a modular Express.js backend (controllers/routes/models, env setup, common deps).',
+        link: 'https://github.com/Abdrahmane-Allouche-20/fullstack_web_starter',
+    
     },
+    
     {
-        iconUrl: moon,
-        theme: 'btn-back-yellow',
-        name: 'Hajj Lottery',
-        description: 'The HajjLottery  is your gateway to a seamless Hajj registration experience. Users can easily register for the lottery and track their status, while admins have full control to manage and filter entries. With intuitive navigation and a user friendly interface.',
-        link: 'https://github.com/Abdrahmane-Allouche-20/HajjLotteryFrontEnd',
-        Website:'https://hajjlottery.netlify.app'
-    }
+        iconUrl: identifiant,
+        theme: 'btn-back-lime',
+        name: 'Employee System Manager ',
+        description: 'employeeSystemManager is a full‑stack employee management system with a React (Vite) frontend and an Express + MongoDB backend, providing a foundation for managing employee records with a simple web UI and REST API.',
+        link: 'https://github.com/Abdrahmane-Allouche-20/employeeSystemManager',
+        
+    },
 ];
 
 export const socialLinks = [

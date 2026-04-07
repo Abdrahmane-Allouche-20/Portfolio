@@ -14,7 +14,7 @@ const Projects = () => {
         </span>
       </h1>
 
-      <p className='text-slate-500 mt-2 leading-relaxed'>
+      <p className='text-slate-500 mt-2 leading-relaxed description-text'>
       Over the years, I’ve had the opportunity to work on a variety of projects,
        each helping me grow in different ways. Among them, these hold a special place 
        in my journey they reflect not only my skills but also my passion for building 
@@ -41,7 +41,7 @@ const Projects = () => {
               <h4 className='text-2xl font-poppins font-semibold'>
                 {project.name}
               </h4>
-              <p className='mt-2 text-slate-500 text-justify'>{project.description}</p>
+              <p className='mt-2 text-slate-500 text-justify description-text'>{project.description}</p>
               <div className="flex justify-between items-center">
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
@@ -58,7 +58,8 @@ const Projects = () => {
                   className='w-4 h-4 object-contain'
                 />
               </div>
-              <div className='mt-5 flex items-center gap-2 font-poppins'>
+              {project.Website && (
+                <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
                   to={project.Website}
                   target='_blank'
@@ -73,6 +74,8 @@ const Projects = () => {
                   className='w-4 h-4 object-contain'
                 />
               </div>
+              )}
+              
               </div>
             </div>
           </div>
