@@ -56,8 +56,8 @@ const handleDownloadCv = () => {
       <button 
       ref={cv}
       onClick={handleDownloadCv}
-      className='p-2 text-sm flex cursor-pointer items-center bg-gradient-to-br w-fit rounded-xl from-blue-500 to-sky-400 text-white  gap-3'>
-       <Download className='  w-4'/>      Download
+      className=' px-4 py-2 text-sm flex cursor-pointer items-center bg-gradient-to-br w-full md:w-fit rounded-xl from-blue-500 to-sky-400 text-white  gap-3'>
+       <Download className=' w-4'/>      Download
       </button>
     </>
   )
@@ -93,7 +93,7 @@ const handleDownloadCv = () => {
         {isOpen && (
           <motion.nav
           
-            className='md:hidden mt-4 flex flex-col gap-4 text-lg font-medium glass p-4 rounded-lg shadow-lg'
+            className='md:hidden mt-4 flex flex-col gap-4 text-base font-medium glass p-4 rounded-lg shadow-lg'
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
