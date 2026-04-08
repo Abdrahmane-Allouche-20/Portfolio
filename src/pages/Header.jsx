@@ -1,4 +1,4 @@
-import React, { useState ,useRef} from 'react'
+import  { useState ,useRef} from 'react'
 import { NavLink } from 'react-router-dom'
 import { house, Menu, X } from '../assets/icons'
 import { motion, AnimatePresence } from 'framer-motion'
