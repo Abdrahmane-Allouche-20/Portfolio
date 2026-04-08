@@ -89,7 +89,7 @@
 
 .glass {
 
-  background: rgba(247, 247, 247, 0.943);
+  background: rgb(247, 247, 247);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(5, 5, 5, 0.1);
   backdrop-filter: blur(10px);
