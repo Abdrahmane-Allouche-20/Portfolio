@@ -21,6 +21,7 @@ import {
     owasp,
     vite,
     canva,
+    google,
     bash,
     contact,
     css, 
@@ -320,16 +321,88 @@ export const experiences = [
         date: "2025",
         description: 'Achieved C1-level proficiency in French through TCF, confirming strong comprehension and expression abilities in academic and professional contexts.'
     },
+    {
+        title: "Automate Cybersecurity Tasks with Python",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "17 April 2026",
+        description: 'Completed the Automate Cybersecurity Tasks with Python course authorized by Google through Coursera, gaining practical skills in automating security tasks and defensive operations using Python.'
+    },
+    {
+        title: "Tools of the Trade: Linux and SQL",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "14 April 2026",
+        description: 'Completed the Tools of the Trade: Linux and SQL course authorized by Google through Coursera, mastering essential command-line tools, Linux administration, and SQL database querying for cybersecurity professionals.'
+    },
+    {
+        title: "Foundations of Cybersecurity",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "11 April 2026",
+        description: 'Completed the Foundations of Cybersecurity course authorized by Google through Coursera, establishing a comprehensive foundation in security principles, threat identification, and defensive strategies.'
+    },
+    {
+        title: "Put It to Work: Prepare for Cybersecurity Jobs",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "17 April 2026",
+        description: 'Completed the Put It to Work: Prepare for Cybersecurity Jobs course authorized by Google through Coursera, developing job-ready skills and preparing for entry-level cybersecurity positions.'
+    },
+    {
+        title: "Sound the Alarm: Detection and Response",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "16 April 2026",
+        description: 'Completed the Sound the Alarm: Detection and Response course authorized by Google through Coursera, mastering security incident detection, analysis, and response procedures.'
+    },
+    {
+        title: "Play It Safe: Manage Security Risks",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "12 April 2026",
+        description: 'Completed the Play It Safe: Manage Security Risks course authorized by Google through Coursera, learning risk assessment, mitigation strategies, and security risk management frameworks.'
+    },
+    {
+        title: "Connect and Protect: Networks and Network Security",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "13 April 2026",
+        description: 'Completed the Connect and Protect: Networks and Network Security course authorized by Google through Coursera, mastering network architecture, protocols, and security best practices.'
+    },
+    {
+        title: "Assets, Threats, and Vulnerabilities",
+        alt: "Google Career Certificates",
+        icon: google,
+        iconBg: "#FBBC05",
+        border: "#34A853",
+        date: "15 April 2026",
+        description: 'Completed the Assets, Threats, and Vulnerabilities course authorized by Google through Coursera, learning to identify and assess security assets, threats, and vulnerabilities in enterprise environments.'
+    },
 ];
 
 export const projects = [
     {
         iconUrl: portfolio,
         theme: 'btn-back-red',
-        name: 'Portfolio builder',
+        name: 'DevFolio',
         description: 'A modern, responsive  portfolio builder that lets users create, customize, and preview personal portfolio websites through an easy-to-use interface. Built to deliver a smooth editing experience with reusable UI components and a clean, maintainable codebase.',
         link: 'https://github.com/Abdrahmane-Allouche-20/portfolio_builder_frontend',
-        Website:'https://devfoliov1.netlify.app/',
+        Website:'https://devfolio-phi-rose.vercel.app/',
     },
      {
         iconUrl: chat,
@@ -337,7 +410,7 @@ export const projects = [
         name: 'Real-Time Chat App',
           description: 'A modern, responsive real-time chat app that lets users sign in, start conversations, and exchange messages instantly through an easy-to-use interface. Built to deliver a smooth communication experience with reusable UI components and a clean, maintainable codebase.',
         link: 'https://github.com/Abdrahmane-Allouche-20/real_time_chat_frontend',
-        Website:'https://pulsechattt.netlify.app/',
+        Website:'https://pulsechattt.vercel.app/',
 
     },
     
@@ -355,14 +428,14 @@ export const projects = [
         name: 'Hajj Lottery',
         description: 'The HajjLottery  is your gateway to a seamless Hajj registration experience. Users can easily register for the lottery and track their status, while admins have full control to manage and filter entries. With intuitive navigation and a user friendly interface.',
         link: 'https://github.com/Abdrahmane-Allouche-20/HajjLotteryFrontEnd',
-        Website:'https://hajjlottery.netlify.app'
+        Website:'https://hajjlottery.vercel.app/'
     },{
         iconUrl: weather,
         theme: 'btn-back-green',
-        name: 'Weather  App',
+        name: 'StormFounder',
         description: 'StormFounder is a sleek, responsive weather web app built with React and modern APIs. It delivers a smooth forecast experience with a clean UI, location-based weather updates, dynamic visuals, and efficient data handling that showcases my API integration and front-end architecture skills.',
         link: 'https://github.com/Abdrahmane-Allouche-20/Weather',
-        Website:'https://stormfounder.netlify.app',
+        Website:'https://stormfounder.vercel.app/',
     },
     
     {

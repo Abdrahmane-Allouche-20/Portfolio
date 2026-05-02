@@ -17,23 +17,24 @@ function Expreience({ experience }) {
 
                             <div className='relative z-10 flex items-start gap-4'>
                                 <div
-                                    className='flex h-14 w-14 items-center justify-center rounded-2xl border border-white/70 bg-white/85 shadow-[0_10px_20px_rgba(15,23,42,0.12)]'
+                                    className='flex h-12 w-12 sm:h-14 sm:w-14 min-w-[3rem] sm:min-w-[3.5rem] items-center justify-center rounded-2xl border border-white/70 bg-white/85 shadow-[0_10px_20px_rgba(15,23,42,0.12)]'
                                     style={{ boxShadow: `0 10px 24px ${experience.border}55` }}
                                 >
                                     <img
                                         src={experience.icon}
                                         alt={experience.alt}
-                                        className='h-8 w-8 object-contain'
+                                        className='h-6 w-6 sm:h-8 sm:w-8 object-contain max-w-full max-h-full block'
+                                        loading='lazy'
                                     />
                                 </div>
 
-                                <div className='flex-1'>
-                                    <div className='mb-2 flex items-center justify-between gap-3'>
-                                        <h4 className='text-base font-bold text-slate-800 sm:text-lg'>
+                                <div className='flex-1 min-w-0'>
+                                    <div className='mb-2 flex items-center justify-between gap-3 flex-wrap'>
+                                        <h4 className='text-base font-bold text-slate-800 sm:text-lg min-w-0 truncate'>
                                             {experience.title}
                                         </h4>
                                         <span
-                                            className='rounded-full border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-600'
+                                            className='rounded-full border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-600 flex-shrink-0'
                                             style={{ borderColor: experience.border, backgroundColor: `${experience.border}18` }}
                                         >
                                             {experience.badge || 'Certificate'}

@@ -66,9 +66,11 @@ import vite from './vite.svg'
 import canva from './canva.svg'
 import algerie_telecom from './algerie_telecome.png'
 import socshield from './Socshield.jpg'
+import google from './google.png'
 export {
     socshield,
     huawei,
+    google,
     algerie_telecom,
     tcf,
     ielts,
