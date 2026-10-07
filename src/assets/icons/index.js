@@ -67,7 +67,13 @@ import canva from './canva.svg'
 import algerie_telecom from './algerie_telecome.png'
 import socshield from './Socshield.jpg'
 import google from './google.png'
+import csharp from './csharp.svg'
+import net from './.net.svg'
+import angular from './angular.svg'
 export {
+    angular,
+    net,
+    csharp,
     socshield,
     huawei,
     google,

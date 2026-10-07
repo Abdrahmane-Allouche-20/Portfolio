@@ -1,4 +1,6 @@
 import {
+    net,
+    csharp,
     algerie_telecom,
     tcf,
     ielts,
@@ -25,6 +27,7 @@ import {
     bash,
     contact,
     css, 
+    angular,
     express,
     git,
     github,
@@ -107,6 +110,12 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
+    ,
+    {
+        imageUrl: angular,
+        name: "ANGULAR",
+        type: "Frontend",
+    },
     {
         imageUrl: redux,
         name: "Redux",
@@ -146,6 +155,16 @@ export const skills = [
     {
         imageUrl: php,
         name: "php",
+        type: "Backend",
+    },
+    {
+        imageUrl: csharp,
+        name: "C#",
+        type: "Backend",
+    },
+    {
+        imageUrl: net,
+        name: ".NET",
         type: "Backend",
     },
     {
