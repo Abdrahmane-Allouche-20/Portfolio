@@ -71,7 +71,15 @@ import csharp from './csharp.svg'
 import net from './.net.svg'
 import angular from './angular.svg'
 import flyrank from './flyrank.jpg'
+import shield from './shield.svg'
+import plane from './plane.svg'
+import fraud from './fraud.svg'
+import funds from './funds.svg'
 export {
+    shield,
+    plane,
+    fraud,
+    funds,
     flyrank,
     angular,
     net,

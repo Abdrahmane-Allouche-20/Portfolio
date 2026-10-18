@@ -131,3 +131,20 @@
 .block-container .btn-back-liberty {
   background: linear-gradient(135deg, #FF4E50 -20%, #F9D423 120%);
 }
+.block-container .btn-dark-blue{
+    background: linear-gradient(135deg, #02011b -20%, #3eabf9 120%);
+
+}
+.block-container .btn-light-blue{
+    background: linear-gradient(135deg, #5182ff -20%, #1067ff 120%);
+
+}
+.block-container .btn-purple-yellow{
+    background: linear-gradient(135deg, #140114 -20%, #fbdf3e 120%);
+
+}
+.block-container .btn-orange-blue{
+    background: linear-gradient(135deg, #FF8C00 -20%, #2877ff 120%);
+
+}
+
