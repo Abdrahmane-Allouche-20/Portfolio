@@ -20,11 +20,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-900/60'>
         <p className='description-text'>
-        Full-Stack Web Developer delivering secure, scalable, and production-ready web
-applications. Experienced in designing and building complete web solutions from backend
-architecture to modern, high-performance user interfaces. Focused on writing clean, reliable
-code and contributing effectively within development teams.
-
+Full-Stack Software Engineer developing secure web applications with React, Angular, Next.js, and TypeScript, supported by backend expertise in Node.js, Java, C#, and Python. Experienced in REST API design, database modelling, authentication, and responsive interfaces, with end-to-end ownership from architecture to deployment. Combines structured problem-solving with security-conscious engineering to deliver maintainable software that meets business needs.
         </p>
       </div>
 
