@@ -263,8 +263,8 @@ export const workExperiences = [
     alt: "FlyRank",
     icon: flyrank,
     badge: "Internship",
-    iconBg: "#1FAA8D",
-    border: "#EF476F",
+    iconBg: "#064E3B",
+    border: "#A7F3D0",
     date: "July 2026 - September 2026",
     description: "Developed Python and FastAPI endpoints supporting AI features and model integration during a six-week engineering program at FlyRank. Implemented asynchronous processing workflows, request validation, and structured JSON outputs. Collaborated with engineers on API contracts, database schemas, and technical documentation."
 },
@@ -426,6 +426,38 @@ export const experiences = [
 ];
 
 export const projects = [
+    {
+    iconUrl: portfolio,
+    theme: 'btn-back-green',
+    name: 'LeakShield',
+    description: 'A multi-tenant cybersecurity platform that helps organizations monitor digital assets and investigate data leaks. Features searchable dashboards, real-time updates, automated monitoring, and role-based access controls. Designed, developed, and sold to multiple companies.',
+    link: 'https://github.com/Abdrahmane-Allouche-20/leakshield',
+    Website: '',
+},
+{
+    iconUrl: portfolio,
+    theme: 'btn-back-blue',
+    name: 'AI Fraud Detector',
+    description: 'A full-stack machine learning prototype for exploring fraud classification through uploaded PDF invoices. Combines a modern React interface with Python and FastAPI services, document data extraction, and results from six classification models.',
+    link: 'https://github.com/Abdrahmane-Allouche-20/aifrauddetection',
+    Website: '',
+},
+{
+    iconUrl: portfolio,
+    theme: 'btn-back-yellow',
+    name: 'ApexFund',
+    description: 'A crowdfunding platform connecting project creators with potential supporters. Built around clear project presentation and intuitive navigation, helping users discover fundraising initiatives and understand the ideas behind them.',
+    link: 'https://github.com/Abdrahmane-Allouche-20/apexFund',
+    Website: '',
+},
+{
+    iconUrl: portfolio,
+    theme: 'btn-back-pink',
+    name: 'Nextrip',
+    description: 'A travel agency platform designed to showcase destinations and travel offers through a modern, responsive interface. Organizes trip information into clear, engaging pages, helping visitors explore their options and plan their next journey.',
+    link: 'https://github.com/Abdrahmane-Allouche-20/agencedevoyage',
+    Website: '',
+},
     {
         iconUrl: portfolio,
         theme: 'btn-back-red',
