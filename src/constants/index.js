@@ -1,5 +1,6 @@
 import {
     net,
+    flyrank,
     csharp,
     algerie_telecom,
     tcf,
@@ -248,15 +249,25 @@ export const skills = [
 
 export const workExperiences = [
     {
-        title: "Web Developer & Cyber Security",
+        title: "Full stack  Developer & Cyber Security",
         alt: "SocShield",
         icon: socshield,
         badge: "Job",
         iconBg: "#1FAA8D",
         border: "#EF476F",
         date: "2025 - Present",
-        description: 'Web Developer and Cyber Security Professional at SoShield, an Algerian cybersecurity company. Developing secure web applications and implementing comprehensive security solutions to protect digital infrastructure. Combining full-stack development expertise with advanced cybersecurity practices to deliver robust, threat-resistant applications.'
+        description: 'Full stack Developer and Cyber Security Professional at SoShield, an Algerian cybersecurity company. Developing secure web applications and implementing comprehensive security solutions to protect digital infrastructure. Combining full-stack development expertise with advanced cybersecurity practices to deliver robust, threat-resistant applications.'
     },
+    {
+    title: "Back-End AI Engineering Intern",
+    alt: "FlyRank",
+    icon: flyrank,
+    badge: "Internship",
+    iconBg: "#1FAA8D",
+    border: "#EF476F",
+    date: "July 2026 - September 2026",
+    description: "Developed Python and FastAPI endpoints supporting AI features and model integration during a six-week engineering program at FlyRank. Implemented asynchronous processing workflows, request validation, and structured JSON outputs. Collaborated with engineers on API contracts, database schemas, and technical documentation."
+},
 ];
 
 export const experiences = [

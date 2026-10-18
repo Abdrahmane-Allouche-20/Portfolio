@@ -70,7 +70,9 @@ import google from './google.png'
 import csharp from './csharp.svg'
 import net from './.net.svg'
 import angular from './angular.svg'
+import flyrank from './flyrank.jpg'
 export {
+    flyrank,
     angular,
     net,
     csharp,
